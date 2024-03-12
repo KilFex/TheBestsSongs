@@ -1,0 +1,48 @@
+html{
+    box-sizing: border-box;  
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(./images/bg.jpg);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vb;
+}
+.conteinerFather{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #272238;
+    border-radius: 1rem;
+
+}
+.nameSongOne{
+    padding: 1rem;
+}
+.imgOne{
+    height: 326px;
+    width: 362px;
+    border-radius: 1rem;
+}
+.imageOne{
+    padding: 2rem;
+}
+
+@media (max-width:640px) {
+    .conteinerFather{
+        padding: 1rem;
+    }
+    .imgOne{
+        height: 206px;
+        width: 242px;
+    }
+}

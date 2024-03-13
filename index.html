@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./styles.css" />
+    <script src="./scrip.js"></script>
   </head>
   <body>
     <div class="conteinerFather">
@@ -15,18 +16,21 @@
         <h2>PedguardNerds</h2>
         <p>Disconected</p>
       </div>
-      <input type="range" value="20" min="0" class="player__level">
-      <div class="duracion_audio">
+      <input type="range" value="20" min="0" class="player__level" />
+      <!--<div class="duracion_audio">
         <div class="start">00:01</div>
         <div class="end">04:02</div>
-      </div>
+      </div>-->
+      <audio class="player__audio"  id="audio">
+        <source src="./audio/Pegboard Nerds - Disconnected.mp3" type="audio/mpeg">
+      </audio>
       <div class="icons">
         <button class="back">
-          <img src="./icons/Stop_and_play_fill-1.svg" id="backwars" />
+          <img src="./icons/Stop_and_play_fill-1.svg"  />
         </button>
-        <button class="iplay"><img src="./icons/Play_fill.svg" /></button>
+        <button class="iplay" id="play"><img src="./icons/Play_fill.svg" /></button>
         <button class="forward">
-          <img src="./icons/Stop_and_play_fill_reverse.svg" id="following" />
+          <img src="./icons/Stop_and_play_fill_reverse.svg"  />
         </button>
       </div>
     </div>

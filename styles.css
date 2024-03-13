@@ -27,6 +27,10 @@ body{
 }
 .nameSongOne{
     padding: 1rem;
+    color: #BEFFF7;
+}
+.nameSongOne h2{
+    padding: 0.5rem;
 }
 .imgOne{
     height: 326px;
@@ -35,6 +39,29 @@ body{
 }
 .imageOne{
     padding: 2rem;
+}
+.icons{
+    padding: 0 0 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.icons img{
+    height: 3rem;
+    width: 3rem;
+
+}
+.icons button{
+    background-color: #272238;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+button.iplay{
+    background-color: #c83b77; 
+    border-radius: 100px;
 }
 
 @media (max-width:640px) {

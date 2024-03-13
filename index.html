@@ -1,20 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
     <div class="conteinerFather">
-        <div class="imageOne">
-        <img class="imgOne" src="./images/cover-1.png" alt="">
-    </div>
-        <div class="nameSongOne">
+      <div class="imageOne">
+        <img class="imgOne" src="./images/cover-1.png" alt="" />
+      </div>
+      <div class="nameSongOne">
         <h2>PedguardNerds</h2>
         <p>Disconected</p>
-    </div>    
+      </div>
+      <input type="range" value="20" min="0" class="player__level">
+      <div class="duracion_audio">
+        <div class="start">00:01</div>
+        <div class="end">04:02</div>
+      </div>
+      <div class="icons">
+        <button class="back">
+          <img src="./icons/Stop_and_play_fill-1.svg" id="backwars" />
+        </button>
+        <button class="iplay"><img src="./icons/Play_fill.svg" /></button>
+        <button class="forward">
+          <img src="./icons/Stop_and_play_fill_reverse.svg" id="following" />
+        </button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
